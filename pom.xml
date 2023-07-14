@@ -7,17 +7,23 @@
     <groupId>com.streltsovsevolod</groupId>
     <artifactId>microservices</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>microservices</name>
     <!-- FIXME change it to the project's website -->
     <url>https://github.com/StreltsoVsevolod</url>
 
+    <modules>
+        <module>customer</module>
+    </modules>
+
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
-        <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
+        <spring.boot.maven.plugin.version>3.0.0</spring.boot.maven.plugin.version>
+        <spring.boot.dependencies.version>3.0.4</spring.boot.dependencies.version>
     </properties>
 
     <dependencyManagement>
